@@ -18,5 +18,11 @@
   "homepage": "https://github.com/vrzali/ch10-team-profile-generator#readme",
   "devDependencies": {
     "jest": "^28.1.2"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
