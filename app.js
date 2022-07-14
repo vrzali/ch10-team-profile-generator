@@ -90,7 +90,7 @@ function startHtml() {
         <title>Team Profile</title>
     </head>
     <body>
-        <nav class="navbar navbar-dark bg-dark mb-5">
+        <nav class="navbar navbar-dark bg-danger mb-5">
             <span class="navbar-brand mb-0 h1 w-100 text-center">Team Profile</span>
         </nav>
         <div class="container">
@@ -151,7 +151,7 @@ function addHtml(member) {
                     <div class="card h-100">
                         <div class="card-header">
                             <h3>${member.name}</h3>
-                            <h4>Manager</h4><i class="material-icons">content_paste</i>
+                            <h4>Manager</h4>
                         </div>
                         <div class="card-body">
                             <p class="id">ID: ${member.id}</p>
